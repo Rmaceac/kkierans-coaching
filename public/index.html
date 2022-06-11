@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<!-- Import the functions you need from the SDKs you need -->
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use -->
+<!-- https://firebase.google.com/docs/web/setup#available-libraries -->
+import { getAuth } from "firebase/auth";
+<!-- Your web app's Firebase configuration -->
+<!-- For Firebase JS SDK v7.20.0 and later, measurementId is optional -->
+const firebaseConfig = {
+  apiKey: "AIzaSyDqSumhgacC0bkPWPl-ijxlpQy2v8vqTn0",
+  authDomain: "kkierans-coaching.firebaseapp.com",
+  projectId: "kkierans-coaching",
+  storageBucket: "kkierans-coaching.appspot.com",
+  messagingSenderId: "46825803541",
+  appId: "1:46825803541:web:a3b0b99af46ba63dfaa31c",
+  measurementId: "G-59Y7FNYF2N"
+};
+
+<!-- Initialize Firebase -->
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const auth = getAuth(app);
+
+<script src="app.js" defer></script>
+</head>
+<body>
+  
+</body>
+</html>
