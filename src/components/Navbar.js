@@ -43,6 +43,11 @@ const Navbar = () => {
                 Unbound Women's Collective
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/uwc" className="nav-links-mobile" onClick={closeMobileMenu}>
+                Sign Up
+              </Link>
+            </li>
 
           </ul>
         </div>
