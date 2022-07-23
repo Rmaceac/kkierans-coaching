@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            KK <FontAwesomeIcon icon="fa-solid fa-rocket" />
+            KK <i className="fa-solid fa-lemon" />
           </Link>
         </div>
       </nav>
