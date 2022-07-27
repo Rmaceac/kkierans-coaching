@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
@@ -18,12 +18,16 @@ const Navbar = () => {
     }
   };
 
+  useEffect(() => {
+    showButton();
+  }, []);
+
   window.addEventListener('resize', showButton)
   
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container">
+        <div className="navbar-container" onClick={handleClick}>
           <Link to="/" className="navbar-logo">
             KK <i className="fa-solid fa-lemon" />
           </Link>
