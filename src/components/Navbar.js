@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
 import { Button } from './Button';
+import './Navbar.css';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if (window.innerwidth <= 960) {
+    if (window.innerWidth <= 960) {
       setButton(false);
     } else {
       setButton(true);
