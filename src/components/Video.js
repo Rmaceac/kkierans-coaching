@@ -2,11 +2,11 @@ import React from 'react';
 import '../App.css';
 import './Video.css';
 
-export default function Video() {
+export default function Video({ src, title }) {
   return (
     <div className='video-container'>
-      <video src='/videos/vid-1.mp4' autoPlay loop muted></video>
-      <h1>Meet Kat</h1>
+      <video src={src} autoPlay loop muted></video>
+      <h1>{title}</h1>
     </div>
   )
 }
