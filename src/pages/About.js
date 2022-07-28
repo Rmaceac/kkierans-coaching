@@ -1,6 +1,7 @@
-import Video from '../components/Video';
 import '../App.css';
 import './About.css';
+import Video from '../components/Video';
+import Button from '../components/Button';
 
 export default function About() {
   return (
@@ -11,6 +12,22 @@ export default function About() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           <p>Proin at mauris sit amet neque congue luctus. </p>
         </div>
+      </section>
+      <section className='section-dark long'>
+        <div className='text-container'>
+          <h5>To Be Unbound Creator</h5>
+          <p className="text-large">Kat is wildly passionate about helping humans feel at home in their bodies, guiding them back to their authentic selves & living life from joy instead of fear. </p>
+          <p>She’s known for gifting you new perspectives (from victim to Unbound) and helping you not only shift out of limiting beliefs, but up-level to the person of your own dreams.  </p>
+          <p>As an expert in communication & somatic healing Kat helps her clients un-apologetically show up in their power.</p>
+          <p>Stress & anxiety no longer run Kat’s life, and her purpose is to ensure it no longer runs yours. </p>
+          <p>Kat’s fierce passion for vulnerability and up-levelling vibration is the driving force behind helping her clients bring more of them SELVES into their lives, instead of being guided by fear and the expectations of others. </p>
+        </div>
+        <Button 
+          children="Want to work with me? Book your free clarity call."
+          buttonSize='btn--medium'
+          buttonStyle='btn--tertiary'
+          link='/sign-up'
+        />
       </section>
     </>
   )

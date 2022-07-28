@@ -1,6 +1,11 @@
 .section-dark {
   background-color: #242424;
-  height: 80vh;
+  height: 75vh;
+  color: #fff;
+}
+
+.long {
+  height: ;
 }
 
 .heading-container {
@@ -12,7 +17,7 @@
 }
 
 .heading-container > p {
-  color: #fff;
+  /* color: #fff; */
   font-size: 45px;
   text-align: center;
   margin: 30px 0 30px;
