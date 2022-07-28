@@ -24,7 +24,7 @@ export default function Home() {
           children='Read more client testimonies...'
           buttonStyle='btn--secondary'
           buttonSize='btn--small'
-          link='testimonies'
+          link='/testimonies'
         />
       </div>
     </>

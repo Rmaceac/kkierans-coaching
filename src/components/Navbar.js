@@ -70,7 +70,7 @@ const Navbar = () => {
           </a>
           {button && <Button 
             buttonStyle='btn--outline'
-            link='sign-up'
+            link='/sign-up'
             >
               Free Clarity Call
             </Button>}
