@@ -11,13 +11,15 @@ export default function Home() {
 
   return (
     <>
-      <div className="home-title-container">
+      <div className='home-title-container'>
         <h1>Unbound & Held</h1>
         <h3>Helping you overcome stress & anxiety, naturally.</h3>
       </div>
+
       <div className='spacer-block' />
       <Banner headings={firstBannerHeadings}/>
       <div className='spacer-block' id="bottom-block-spacer"/>
+
       <BlockQuote quote={quote1} author={author1} />
       <div id='btn-home-testimonies-container'>
         <Button 
@@ -27,6 +29,19 @@ export default function Home() {
           link='/testimonies'
         />
       </div>
+
+      <div className='spacer-block' id="bottom-block-spacer"/>
+
+      <section className='home-section'>
+        <div className='img-container'>
+          <img src='/images/img-3.jpg' alt='highlands' />
+        </div>
+        <div className='text-container'>
+          <h1>Come back home to your body.</h1>
+          <p>{quote1}</p>
+        </div>
+
+      </section>
     </>
 
   )
