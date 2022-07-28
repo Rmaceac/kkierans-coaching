@@ -21,7 +21,7 @@ export default function Home() {
       <div className='spacer-block' id="bottom-block-spacer"/>
 
       <BlockQuote quote={quote1} author={author1} />
-      <div id='btn-home-testimonies-container'>
+      <div className='btn-container'>
         <Button 
           children='Read more client testimonies...'
           buttonStyle='btn--secondary'
@@ -39,6 +39,14 @@ export default function Home() {
         <div className='text-container'>
           <h1>Come back home to your body.</h1>
           <p>{quote1}</p>
+          <div className='btn-container'>
+            <Button 
+              children="Claim a free clarity call."
+              buttonStyle='btn--secondary'
+              buttonSize='btn--small'
+              link='/sign-up'
+              />
+          </div>
         </div>
 
       </section>
