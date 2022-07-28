@@ -44,3 +44,7 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+#btn-home-testimonies {
+  display: flex;
+}

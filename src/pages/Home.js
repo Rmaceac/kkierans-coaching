@@ -19,11 +19,14 @@ export default function Home() {
       <Banner headings={firstBannerHeadings}/>
       <div className='spacer-block' id="bottom-block-spacer"/>
       <BlockQuote quote={quote1} author={author1} />
-      <Button 
-        children='Read more client testimonies...'
-        buttonStyle='btn--secondary'
-        buttonSize='btn--medium'
-      />
+      <div className=''>
+        <Button id='btn-home-testimonies'
+          children='Read more client testimonies...'
+          buttonStyle='btn--secondary'
+          buttonSize='btn--small'
+          link='testimonies'
+        />
+      </div>
     </>
 
   )
