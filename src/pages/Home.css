@@ -45,6 +45,10 @@
   align-items: center;
 }
 
-#btn-home-testimonies {
+#btn-home-testimonies-container {
   display: flex;
+  justify-content: end;
+  padding: 20px 0 20px 20px;
+  margin: 10px;
+  width: 80%;
 }
