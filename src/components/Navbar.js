@@ -61,6 +61,13 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <a 
+            href="https://www.instagram.com/katkierans/?hl=en"
+            target="_blank"
+            rel="noreferrer noopener"
+            >
+            <i className="fa-brands fa-instagram"/>
+          </a>
           {button && <Button buttonStyle='btn--outline'>Free Clarity Call</Button>}
         </div>
       </nav>
