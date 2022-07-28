@@ -1,9 +1,10 @@
+import './Home.css'; 
 
 export default function Home() {
   return (
-    <div>
+    <div className="home-title-container">
       <h1>Unbound & Held</h1>
-      <h6>Helping you overcome stress & anxiety, naturally.</h6>
+      <h3>Helping you overcome stress & anxiety, naturally.</h3>
     </div>
   )
 }
