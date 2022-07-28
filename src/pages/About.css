@@ -1,0 +1,19 @@
+.section-dark {
+  background-color: #242424;
+  height: 80vh;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.heading-container > p {
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  margin: 30px 0 30px;
+}
