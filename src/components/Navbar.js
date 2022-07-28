@@ -64,7 +64,7 @@ const Navbar = () => {
           <a 
             href="https://www.instagram.com/katkierans/?hl=en"
             target="_blank"
-            rel="noreferrer noopener"
+            rel="noopener noreferrer"
             >
             <i className="fa-brands fa-instagram"/>
           </a>
