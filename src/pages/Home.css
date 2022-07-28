@@ -71,7 +71,8 @@ figcaption {
 
 .img-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
   width: 35%;
 }
 
@@ -81,11 +82,19 @@ img {
   object-fit: cover;
 }
 
+.img-small {
+  height: 70%;
+}
+
 .text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 35%;
+}
+
+.colored {
+  background-color: #afe9b9;
 }
 
 .text-container > h1 {

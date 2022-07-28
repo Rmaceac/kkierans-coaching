@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className='spacer-block' />
       <Banner headings={firstBannerHeadings}/>
-      <div className='spacer-block' id="bottom-block-spacer"/>
+      <div className='spacer-block' />
 
       <BlockQuote quote={quote1} author={author1} />
       <div className='btn-container'>
@@ -30,7 +30,7 @@ export default function Home() {
         />
       </div>
 
-      <div className='spacer-block' id="bottom-block-spacer"/>
+      <div className='spacer-block'  />
 
       <section className='home-section'>
         <div className='img-container'>
@@ -48,6 +48,29 @@ export default function Home() {
               />
           </div>
         </div>
+      </section>
+
+      <div className='spacer-block' />
+
+      <section className='home-section'>
+        <div className='text-container'>
+          <BlockQuote
+            className='colored'
+            quote={quote1}
+            author={author1}
+          />
+        </div>  
+        <div className='img-container'>
+          <img className='img-small' src='/images/img-4.jpg' alt="hawaii" />
+          <div className='spacer-block' />
+          <Button 
+              children="Read more client testimonials..."
+              buttonStyle='btn--secondary'
+              buttonSize='btn--small'
+              link='/testimonials'
+              /> 
+        </div>
+
 
       </section>
     </>
