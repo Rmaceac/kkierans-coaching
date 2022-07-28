@@ -92,3 +92,7 @@ img {
   font-size: 35px;
   margin-bottom: 30px;
 }
+
+.text-container > p {
+  line-height: 3.5rem;
+}
