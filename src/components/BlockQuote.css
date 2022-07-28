@@ -1,0 +1,17 @@
+.blockquote-container {
+  display: flex;
+  justify-content: center;
+}
+
+.blockquote-container > figure {
+  width: 60%;
+}
+
+blockquote {
+  display: block;
+}
+
+figcaption {
+  display: flex;
+  justify-content: end;
+}
