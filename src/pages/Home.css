@@ -48,10 +48,11 @@
 blockquote {
   font-size: 20px;
   font-style: italic;
+  padding-top: 20px;
 }
 
 figcaption {
-  margin-top: 10px;
+  margin: 10px 0 10px;
 }
 
 .btn-container {
