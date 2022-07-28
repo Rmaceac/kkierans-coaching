@@ -19,15 +19,15 @@
 }
 
 .btn--secondary {
-    background-color: var(--tertiary);
-    color: var(--secondary);
-    border: 1px solid var(--tertiary);
-}
-
-.btn--tertiary {
     background-color: var(--secondary);
     color: var(--primary);
     border: 1px solid var(--secondary);
+}
+
+.btn--tertiary {
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    border: 1px solid var(--tertiary);
 }
 
 .btn--outline {

@@ -13,7 +13,7 @@ export default function About() {
           <p>Proin at mauris sit amet neque congue luctus. </p>
         </div>
       </section>
-      <section className='section-dark long'>
+      <section className='section-dark long row'>
         <div className='text-container'>
           <h5>To Be Unbound Creator</h5>
           <p className="text-large">Kat is wildly passionate about helping humans feel at home in their bodies, guiding them back to their authentic selves & living life from joy instead of fear. </p>
@@ -22,13 +22,16 @@ export default function About() {
           <p>Stress & anxiety no longer run Kat’s life, and her purpose is to ensure it no longer runs yours. </p>
           <p>Kat’s fierce passion for vulnerability and up-levelling vibration is the driving force behind helping her clients bring more of them SELVES into their lives, instead of being guided by fear and the expectations of others. </p>
         </div>
-        <Button 
-          children="Want to work with me? Book your free clarity call."
-          buttonSize='btn--medium'
-          buttonStyle='btn--tertiary'
-          link='/sign-up'
-        />
+        <div className='img-container'>
+          <img src='/images/img-12.jpg' alt='woman' />
+        </div>
       </section>
+      <Button 
+        children="Want to work with me? Book your free clarity call."
+        buttonSize='btn--medium'
+        buttonStyle='btn--tertiary'
+        link='/sign-up'
+      />
     </>
   )
 }

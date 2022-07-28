@@ -5,7 +5,12 @@
 }
 
 .long {
-  height: ;
+  height: 200%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .heading-container {
@@ -21,4 +26,8 @@
   font-size: 45px;
   text-align: center;
   margin: 30px 0 30px;
+}
+
+.text-large {
+  font-size: ;
 }
