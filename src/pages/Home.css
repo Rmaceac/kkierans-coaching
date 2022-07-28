@@ -45,6 +45,15 @@
   align-items: center;
 }
 
+blockquote {
+  font-size: 20px;
+  font-style: italic;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
 #btn-home-testimonies-container {
   display: flex;
   justify-content: flex-end;
