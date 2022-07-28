@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
+import Button from './Button';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -68,7 +68,12 @@ const Navbar = () => {
             >
             <i className="fa-brands fa-instagram"/>
           </a>
-          {button && <Button buttonStyle='btn--outline'>Free Clarity Call</Button>}
+          {button && <Button 
+            buttonStyle='btn--outline'
+            link='sign-up'
+            >
+              Free Clarity Call
+            </Button>}
         </div>
       </nav>
     </>

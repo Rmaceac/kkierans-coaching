@@ -1,4 +1,4 @@
-export default function Banner({ headings }) {
+const Banner = ({ headings }) => {
   return (
     <div className="banner-container">
       <div className='banner-edge'>
@@ -15,3 +15,5 @@ export default function Banner({ headings }) {
     </div>
   )
 }
+
+export default Banner;

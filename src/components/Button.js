@@ -1,13 +1,14 @@
 import './Button.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn--primary', 'btn--outline'];
+const STYLES = ['btn--primary', 'btn--outline', 'btn--secondary'];
 
-const SIZES = ['btn--medium', 'btn--large'];
+const SIZES = ['btn--medium', 'btn--small', 'btn--large'];
 
 const Button = ({
     children,
     type,
+    link,
     onClick,
     buttonStyle,
     buttonSize
@@ -16,7 +17,7 @@ const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <Link to='/sign-up' className='btn-mobile'>
+        <Link to={`/${link}`} className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
@@ -28,4 +29,4 @@ const Button = ({
     )
 };
 
-export { Button };
+export default Button;

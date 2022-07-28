@@ -1,6 +1,6 @@
 import './BlockQuote.css';
 
-export default function BlockQuote({ quote, author }) {
+const BlockQuote = ({ quote, author }) => {
   return (
     <div className="blockquote-container">
       <figure>
@@ -10,3 +10,5 @@ export default function BlockQuote({ quote, author }) {
     </div>
   )
 }
+
+export default BlockQuote;

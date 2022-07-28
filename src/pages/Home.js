@@ -1,6 +1,7 @@
 import './Home.css';
 import Banner from '../components/Banner';
 import BlockQuote from '../components/BlockQuote';
+import Button from '../components/Button'; 
 
 export default function Home() {
   
@@ -18,6 +19,11 @@ export default function Home() {
       <Banner headings={firstBannerHeadings}/>
       <div className='spacer-block' id="bottom-block-spacer"/>
       <BlockQuote quote={quote1} author={author1} />
+      <Button 
+        children='Read more client testimonies...'
+        buttonStyle='btn--secondary'
+        buttonSize='btn--medium'
+      />
     </>
 
   )
