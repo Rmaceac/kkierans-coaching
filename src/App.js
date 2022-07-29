@@ -24,18 +24,3 @@ function App() {
 }
 
 export default App;
-
-
-// console.log(sum(4, 2));
-// // Output: Ref Error
-
-// const sum = (a, b) => {
-//   return a + b;
-// };
-
-// console.log(subtract(4, 2));
-// // Output: 2
-
-// function subtract(a, b) {
-//   return a - b;
-// };

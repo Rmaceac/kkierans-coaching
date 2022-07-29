@@ -1,7 +1,7 @@
 import './Home.css';
 import Banner from '../components/Banner';
 import BlockQuote from '../components/BlockQuote';
-import Button from '../components/Button'; 
+import Button from '../components/Button';
 
 export default function Home() {
   
