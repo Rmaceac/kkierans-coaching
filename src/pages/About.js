@@ -26,18 +26,20 @@ export default function About() {
           <p>Stress & anxiety no longer run Kat’s life, and her purpose is to ensure it no longer runs yours. </p>
           <div className='spacer-block--small' />
           <p>Kat’s fierce passion for vulnerability and up-levelling vibration is the driving force behind helping her clients bring more of them SELVES into their lives, instead of being guided by fear and the expectations of others. </p>
+          <div className='spacer-block--small' />
+          <Button 
+            children="Want to work with me? Book your free clarity call."
+            buttonSize='btn--medium'
+            buttonStyle='btn--tertiary'
+            link='/sign-up'
+            />
         </div>
 
         <div className='column'>
           <div className='img-container'>
             <img src='/images/img-12.jpg' alt='woman' />
           </div>
-          <Button 
-            children="Want to work with me? Book your free clarity call."
-            buttonSize='btn--medium'
-            buttonStyle='btn--tertiary'
-            link='/sign-up'
-          />
+
         </div>
       </section>
     </>
