@@ -1,3 +1,5 @@
+import './QualificationsList.css'
+
 const QualificationsList = () => {
   const qualifications = [
     "4+ Years Coaching Experience",

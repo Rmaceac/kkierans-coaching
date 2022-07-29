@@ -63,7 +63,15 @@ export default function About() {
             <h5>Kat Kieran's Qualifications</h5>
             <h2>Certified Holistic Health Coach</h2>
             <QualificationsList />
+            <Button 
+              children="Book your clarity call with Kat now."
+              buttonSize='btn--medium'
+              buttonStyle='btn--tertiary'
+              link='/sign-up'  
+            />
           </div>
+
+
         </section>
       </section>
     </>
