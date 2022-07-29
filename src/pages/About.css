@@ -8,6 +8,10 @@
   height: 200%;
 }
 
+/* .dark { */
+  /* background-color: #242424; */
+/* } */
+
 .row {
   display: flex;
   justify-content: space-evenly;

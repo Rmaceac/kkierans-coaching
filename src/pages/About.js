@@ -2,6 +2,11 @@ import '../App.css';
 import './About.css';
 import Video from '../components/Video';
 import Button from '../components/Button';
+// import gsap from 'gsap';
+// import ScrollTrigger from 'gsap/ScrollTrigger';
+// import { useRef, useEffect } from 'react';
+
+// gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
   return (
@@ -42,6 +47,7 @@ export default function About() {
         </div>
       </section>
 
+      <div className="spacer-block dark" />
 
       <section className='section-dark long row'>
         <div className='column'>
