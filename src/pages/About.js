@@ -13,10 +13,11 @@ export default function About() {
           <p>Proin at mauris sit amet neque congue luctus. </p>
         </div>
       </section>
+      
       <section className='section-dark long row'>
         <div className='text-container'>
           <h5>To Be Unbound Creator</h5>
-          <p className="text-large">Kat is wildly passionate about helping humans feel at home in their bodies, guiding them back to their authentic selves & living life from joy instead of fear. </p>
+          <p className='text-large'>Kat is wildly passionate about helping humans feel at home in their bodies, guiding them back to their authentic selves & living life from joy instead of fear. </p>
           <div className='spacer-block--small' />
           <p>She’s known for gifting you new perspectives (from victim to Unbound) and helping you not only shift out of limiting beliefs, but up-level to the person of your own dreams.  </p>
           <div className='spacer-block--small' />
@@ -26,16 +27,19 @@ export default function About() {
           <div className='spacer-block--small' />
           <p>Kat’s fierce passion for vulnerability and up-levelling vibration is the driving force behind helping her clients bring more of them SELVES into their lives, instead of being guided by fear and the expectations of others. </p>
         </div>
-        <div className='img-container'>
-          <img src='/images/img-12.jpg' alt='woman' />
+
+        <div className='column'>
+          <div className='img-container'>
+            <img src='/images/img-12.jpg' alt='woman' />
+          </div>
+          <Button 
+            children="Want to work with me? Book your free clarity call."
+            buttonSize='btn--medium'
+            buttonStyle='btn--tertiary'
+            link='/sign-up'
+          />
         </div>
       </section>
-      <Button 
-        children="Want to work with me? Book your free clarity call."
-        buttonSize='btn--medium'
-        buttonStyle='btn--tertiary'
-        link='/sign-up'
-      />
     </>
   )
 }
