@@ -70,7 +70,7 @@ figcaption {
   height: 80vh;
 }
 
-.img-container {
+.img-container--home {
   display: flex;
   flex-direction: column;
   align-items: flex-end;

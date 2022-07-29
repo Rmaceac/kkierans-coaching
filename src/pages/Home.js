@@ -33,7 +33,7 @@ export default function Home() {
       <div className='spacer-block'  />
 
       <section className='home-section'>
-        <div className='img-container'>
+        <div className='img-container--home'>
           <img src='/images/img-3.jpg' alt='highlands' />
         </div>
         <div className='text-container'>
@@ -60,7 +60,7 @@ export default function Home() {
             author={author1}
           />
         </div>  
-        <div className='img-container'>
+        <div className='img-container--home'>
           <img className='img-small' src='/images/img-4.jpg' alt="hawaii" />
           <div className='spacer-block' />
           <Button 

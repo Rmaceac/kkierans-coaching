@@ -36,7 +36,7 @@ export default function About() {
         </div>
 
         <div className='column'>
-          <div className='img-container'>
+          <div className='img-container--about'>
             <img src='/images/img-12.jpg' alt='woman' />
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function About() {
 
       <section className='section-dark long row'>
         <div className='column'>
-          <div className='img-container'>
+          <div className='img-container--about'>
             <img src='/images/img-13.jpg' alt='woman2' />
           </div>
         </div>
