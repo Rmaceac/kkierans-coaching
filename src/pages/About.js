@@ -81,6 +81,7 @@ export default function About() {
                     buttonStyle='btn--tertiary'
                     link='/sign-up'  
                     />
+                  <div className='spacer-block--small' />
                 </div>
             </Slide>
 

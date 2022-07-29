@@ -17,7 +17,7 @@ function App() {
           <Route path="/blog" />
           <Route path="/uwc" />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
