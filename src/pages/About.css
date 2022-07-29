@@ -37,3 +37,7 @@
 .text-large {
   font-size: 30px;
 }
+
+.text-container > p {
+  line-height: 3rem;
+}

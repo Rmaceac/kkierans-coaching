@@ -4,6 +4,16 @@
     padding: 0;
     font-family: 'PT Sans', sans-serif;
   }
+
+  .spacer-block {
+    margin: 25px;
+    padding: 15px;
+  }
+
+  .spacer-block--small {
+    margin: 20px;
+    padding: 10px;
+  }
   
   .home,
   .meet-kat,
