@@ -39,7 +39,20 @@ export default function About() {
           <div className='img-container'>
             <img src='/images/img-12.jpg' alt='woman' />
           </div>
+        </div>
+      </section>
 
+
+      <section className='section-dark long row'>
+        <div className='column'>
+          <div className='img-container'>
+            <img src='/images/img-13.jpg' alt='woman2' />
+          </div>
+        </div>
+
+        <div className='text-container'>
+          <h5>Kat Kieran's Qualifications</h5>
+          <h2>Certified Holistic Health Coach</h2>
         </div>
       </section>
     </>
