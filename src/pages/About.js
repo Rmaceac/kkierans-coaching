@@ -4,6 +4,7 @@ import Video from '../components/Video';
 import Button from '../components/Button';
 import QualificationsList from '../components/QualificationsList';
 import Slide from 'react-reveal/Slide';
+import Pulse from 'react-reveal/Pulse';
 
 export default function About() {
   return (
@@ -13,13 +14,19 @@ export default function About() {
         <div className='heading-container'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           <p>Proin at mauris sit amet neque congue luctus. </p>
+          <Pulse
+            forever={true}
+            
+          >
+            <i class="fa-solid fa-chevron-down"></i>
+          </Pulse>
         </div>
       </section>
       
       <section className='dark'>
 
         <section className='section-dark long row'>
-          <Slide left>
+          <Slide left fraction={0.1}>
             <div className='text-container'>
               <h5>To Be Unbound Creator</h5>
               <p className='text-large'>Kat is wildly passionate about helping humans feel at home in their bodies, guiding them back to their authentic selves & living life from joy instead of fear. </p>
@@ -41,7 +48,7 @@ export default function About() {
             </div>
           </Slide>
 
-          <Slide right>
+          <Slide right fraction={0.1}>
             <div className='column-right'>
               <div className='img-container--about'>
                 <img src='/images/img-12.jpg' alt='woman' />
@@ -53,7 +60,7 @@ export default function About() {
         <div className='spacer-block' />
 
         <section className='section-dark long row'>
-          <Slide left>
+          <Slide left fraction={0.1}>
             <div className='column-left'>
               <div className='img-container--about'>
                 <img src='/images/img-13.jpg' alt='woman2' />
@@ -61,7 +68,7 @@ export default function About() {
             </div>
           </Slide>
 
-          <Slide right>
+          <Slide right fraction={0.1}>
             <div className='text-container'>
               <h5>Kat Kieran's Qualifications</h5>
               <h2>Certified Holistic Health Coach</h2>
