@@ -3,6 +3,16 @@
   /* display: flex; */
 }
 
+.name-logo > h3 {
+  margin: 0 30px 0 30px;
+}
+
 .name-logo > i {
   color: #242424;
+}
+
+.footer-links {
+ display: flex; 
+ justify-content: space-between;
+ margin: 0 30px 0 30px;
 }
