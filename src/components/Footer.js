@@ -11,7 +11,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             >
-            <i className="fa-brands fa-instagram"/>
+            <i className="fa-brands fa-instagram black"/>
           </a>
         </div>
 
