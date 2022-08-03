@@ -25,8 +25,8 @@ const Footer = () => {
 
         <div className='footer-links'>
           <Link to='/about'>Meet Kat</Link>
-          <Link to='/sign-up' >Free Clarity Call</Link>
-          <Link to='/contact' >Contact</Link>
+          <Link to='/sign-up'>Free Clarity Call</Link>
+          <Link to='/contact'>Contact</Link>
         </div>
       </section>
     </div>
