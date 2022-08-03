@@ -1,4 +1,5 @@
 import './Sign-Up.css';
+import Schedule from '../components/Schedule';
 
 export default function SignUp() {
   
@@ -13,6 +14,7 @@ export default function SignUp() {
         <div className='spacer-block' />
       </section>
 
+      <Schedule />
     </div>
   );
 }
