@@ -12,3 +12,7 @@
 .action-header-container > p {
   font-size: 25px;
 }
+
+.full {
+  height: 100vh;
+}

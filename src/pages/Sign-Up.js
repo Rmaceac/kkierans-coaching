@@ -5,7 +5,7 @@ export default function SignUp() {
   
   
   return (
-    <div className='dark'>
+    <div className='dark full'>
       <section className='section-dark action-header-container'>
         <div className='spacer-block' />
         <h1>Book a Clarity Call</h1>
@@ -15,6 +15,7 @@ export default function SignUp() {
       </section>
 
       <Schedule />
+      <div className='spacer-block' />
     </div>
   );
 }
