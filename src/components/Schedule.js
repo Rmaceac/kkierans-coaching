@@ -6,7 +6,7 @@ export default function Schedule() {
         <iframe 
           className='acuity-frame'
           src='https://app.acuityscheduling.com/schedule.php?owner=22654704'
-          height='800'
+          height='650rem'
           width='100%'
           frameborder='0'
           title='Schedule Appointment'
