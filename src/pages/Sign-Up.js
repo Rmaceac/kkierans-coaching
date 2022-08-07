@@ -14,6 +14,7 @@ export default function SignUp() {
         <div className='spacer-block' />
       </section>
 
+      <div className='spacer-block' />
       <Schedule />
       <div className='spacer-block' />
     </div>
