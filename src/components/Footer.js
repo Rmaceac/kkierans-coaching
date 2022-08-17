@@ -1,13 +1,7 @@
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 const Footer = () => {
-  const [footerColor, setFooterColor] = useState();
-
-  useEffect(() => {
-    
-  }, []);
 
   return (
     <div className='footer-container'>
